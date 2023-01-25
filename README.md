@@ -7,16 +7,19 @@ The following are my key takeaways from [Kevin Powell](https://www.kevinpowell.c
 
 **Percentage vs. Fixed Widths**
 - use `%` instead of `px`.
-- a website is naturally responsive. \
+- a website is naturally responsive. 
+
 **Percentages on the child**
-- Child is always dependent w/ parent interms of size. \
+- Child is always dependent w/ parent interms of size. 
+
 **Avoid using `height` property**
 - instead use `padding` if you want more background.
 
 ## Day 2 - Getting Familiar w/ relative units
 
 **`em`**
-- in relation w/ element's parent. \
+- in relation w/ element's parent. 
+
 **`rem`**
 - it stands for root-`em`.
 - it will look to html font size.
