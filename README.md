@@ -2,6 +2,7 @@
 
 The following are my key takeaways from [Kevin Powell](https://www.kevinpowell.co/)'s 21-day challenge of learning to create responsive layouts.
 
+
 ## Day 1 - Using percentage % avoiding heights
 #### `em` and `rem`
 
@@ -14,6 +15,7 @@ The following are my key takeaways from [Kevin Powell](https://www.kevinpowell.c
 
 **Avoid using `height` property**
 - instead use `padding` if you want more background.
+
 
 ## Day 2 - Getting Familiar w/ relative units
 
