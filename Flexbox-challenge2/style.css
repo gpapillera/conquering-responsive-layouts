@@ -1,0 +1,103 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.headingbckgrnd {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.headingbckgrnd__text {
+  width: 60%; /* Column width */
+}
+
+.headingbckgrnd__text > h1 {
+  font-size: 3rem;
+}
+
+.headingbckgrnd__text > p {
+  margin-bottom: 3em;
+}
+
+.headingbckgrnd__img {
+  /* Adding image*/
+  width: 40%; /* Column width */
+  align-self: flex-start;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  font-weight: 900;
+  font-size: 1rem;
+  background-color: #38cfd9;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+  border-style: none;
+}
+
+.button:hover,
+button:focus {
+  opacity: 0.7;
+}
+
+.three-col {
+  background-color: #136c72;
+  color: white;
+  padding: 3em 1em;
+  width: 30%;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.two-col {
+  width: 60%;
+  padding: 3em 0;
+  margin: 2em 0;
+}
+
+.two-col h2 {
+  color: #136c72;
+}
+
+.row {
+  /* display: flex => flex container */
+  display: flex;
+  justify-content: space-between;
+  /* can't use yet */
+  /* gap: 100px; */
+  gap: 2em;
+}
+
+.col {
+  /* these are now flex items */
+  width: 100%;
+}

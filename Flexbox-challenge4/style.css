@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --Abg-color: #f3eed9;
+  --Bbg-color: #222c2a;
+  --text-color: #824936;
+  --Playfair-font: "Playfair Display", serif;
+  --Roboto-font: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--Roboto-font);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  font-weight: 900;
+  font-family: var(--Playfair-font);
+}
+
+.container {
+  width: 75%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.headingbckgrnd {
+  padding: 10em 0;
+  background-color: var(--Abg-color);
+  color: var(--text-color);
+  min-height: 600px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+}
+
+.headingbckgrnd > .container > h1 {
+  font-size: 3rem;
+  line-height: 1em;
+}
+
+.headingbckgrnd > .container > p {
+  color: var(--Bbg-color);
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+.frst-section__title {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.First-section {
+  padding: 3em 0;
+}
+
+.second-section {
+  background-color: var(--Bbg-color);
+  color: white;
+  padding: 3em 0;
+}
+
+.third-section {
+  background-color: var(--text-color);
+  color: white;
+  padding: 3em 0;
+}
+
+.art-text,
+.art-image {
+  width: 50%;
+}
+
+.row {
+  /* display: flex => flex container */
+  display: flex;
+  gap: 2em;
+}
+
+.col {
+  /* these are now flex items */
+  width: 100%;
+}
+
+header {
+  background: var(--text-color);
+  padding: 0.6em 0;
+}
+
+.logo > .logopic {
+  width: 3em;
+  object-fit: contain;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*   width: 100%; 
+  flex-shrink: 1; */
+  flex-grow: 1;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  /*   border: 2px solid red; */
+}
+
+.nav__list-primary {
+  margin: 0 auto; /* TO CENTER THE NAV */
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--button {
+  background: #fff;
+  color: #136c72;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.nav__link:hover {
+  opacity: 0.75;
+}
+
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+
+  .art-text,
+  .art-image {
+    width: 100%;
+  }
+}
