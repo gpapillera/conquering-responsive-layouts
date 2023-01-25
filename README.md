@@ -5,21 +5,19 @@ The following are my key takeaways from [Kevin Powell](https://www.kevinpowell.c
 ## Day 1 - Using percentage % avoiding heights
 #### `em` and `rem`
 
-1.  ##### Percentage vs. Fixed Widths
+**Percentage vs. Fixed Widths**
 - use `%` instead of `px`
 - a website is naturally responsive
-
-2.  ##### Percentages on the child
+**Percentages on the child**
 - Child is always dependent w/ parent interms of size.
-3.  ##### Avoid using `height` property
+**Avoid using `height` property**
 - instead use `padding` if you want more background.
 
 ## Day 2 - Getting Familiar w/ relative units
 
-1. ##### `em`
+**`em`**
 - in relation w/ element's parent
-
-2. ##### `rem`
+**`rem`**
 - it stands for root-`em`.
 - it will look to html font size.
 
