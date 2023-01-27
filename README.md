@@ -74,19 +74,19 @@ img {
 
 ## Day 8 - Flexbox basic
 
-**`div`** - by default has a width of 100%. \
-**flex items** - by default want to be the smallest item it can be.
+        **`div`** - by default has a width of 100%. \
+        **flex items** - by default want to be the smallest item it can be.
 
 ## Day 15 - Media Query Basics
 
 #### Media query examples:
 
-`@media (min-width: 600px;) {...}`
-`min` here means `600px` or bigger.
-this query is a mobile first approach
+`@media (min-width: 600px;) {...}` \
+ `min` here means `600px` or bigger. \
+ this query is a mobile first approach
 
-`@media (max-width: 600px;) {...}`
-`max` here means `600px` or smaller.
-this query is a desktop first approach
+`@media (max-width: 600px;) {...}` \
+ `max` here means `600px` or smaller. \
+ this query is a desktop first approach
 
 **Note:** Bottom `@media` query will always rule your code.
