@@ -74,8 +74,8 @@ img {
 
 ## Day 8 - Flexbox basic
 
-        **`div`** - by default has a width of 100%. \
-        **flex items** - by default want to be the smallest item it can be.
+**`div`** - by default has a width of 100%. \
+**flex items** - by default want to be the smallest item it can be.
 
 ## Day 15 - Media Query Basics
 
