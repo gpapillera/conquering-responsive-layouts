@@ -35,7 +35,7 @@ See and explore this repo, I'm open with any kind of feedback you have in mind.
 
 **Note:** if you set `padding`, `margin`, or `border` with `em`, it looks to the `font-size` property of the parent element.
 
-**Why you shouldn't set `font-size` using `em`?**
+**Why you shouldn't set `font-size` using `em`?** \
 **Answer:** it is compounding, font-size will get _a lot bigger_.
 
 - use `rem` for `font-size` property.
@@ -53,7 +53,7 @@ Using `max-width` with your container limits stretching from 1 side to the other
 
 `%` - _Percentage_ sign, is always dependent with its parent size
 
-_when using `vh` as height also use padding with the `vh` property to make it responsive._ \
+**Note:** when using `vh` as height also use padding with the `vh` property to make it responsive. \
 _use `vmin` for bigger font-size._
 
 For best practice with your CSS:
