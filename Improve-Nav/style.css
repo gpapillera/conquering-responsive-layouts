@@ -117,7 +117,7 @@ header {
   align-items: center;
 /*   width: 100%; 
   flex-shrink: 1; */
-  flex-grow: 1;
+  flex-grow: 1; /*Give space between the logo nav_list*/
 }
 
 .nav__list {
