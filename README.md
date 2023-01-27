@@ -1,6 +1,9 @@
 # Conquering Responsive Layouts
 
-The following are my key takeaways from [Kevin Powell](https://www.kevinpowell.co/)'s 21-day challenge of learning to create responsive layouts.
+The following are my key takeaways from [Kevin Powell](https://www.kevinpowell.co/)'s 21-day challenge of learning to create responsive layouts. \
+
+The above folders are my solutions with the given challenges. \
+See and explore this repo, I'm open with any kind of feedback you have in mind.
 
 ## Day 1 - Using percentage `%` avoiding heights
 
@@ -42,17 +45,18 @@ The following are my key takeaways from [Kevin Powell](https://www.kevinpowell.c
 
 It limits stretching from 1 side to the other. \
 **CSS viewports:** \
-`vh` - viewport height
-`vw` - viewport width
-`vmin` - viewport minimum
-`vmax` - viewport maximum
+`vh` - viewport height \
+`vw` - viewport width \
+`vmin` - viewport minimum \
+`vmax` - viewport maximum \
 
 `%` - _Percentage_ sign, is always dependent with its parent size
 
-*when using `vh` as height also use padding with the `vh` property to make it responsive.* \
-*use `vmin` for bigger font-size.*
+_when using `vh` as height also use padding with the `vh` property to make it responsive._ \
+_use `vmin` for bigger font-size._
 
-For best practice:
+For best practice with your CSS:
+
 ```
 html {
         box-sizing: border-box;
@@ -67,13 +71,21 @@ img {
 }
 ```
 
-
-
 ## Day 8 - Flexbox basic
+
 **`div`** - by default has a width of 100%.
 **flex items** - by default want to be the smallest item it can be.
 
+## Day 15 - Media Query Basics
 
+#### Media query examples:
 
-## Day 9 - Deeper dive into Flexbox
-a. 
+        `@media (min-width: 600px;) {...}`
+        `min` here means `600px` or bigger.
+        this query is a mobile first approach
+
+        `@media (max-width: 600px;) {...}`
+        `max` here means `600px` or smaller.
+        this query is a desktop first approach
+
+__Note:__ Bottom `@media` query will always rule your code
