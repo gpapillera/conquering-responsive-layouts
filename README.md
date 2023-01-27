@@ -81,12 +81,12 @@ img {
 
 #### Media query examples:
 
-`@media (min-width: 600px;) {...}` \
-- `min` here means `600px` or bigger. \
+`@media (min-width: 600px;) {...}`
+- `min` here means `600px` or bigger.
 - this query is a mobile first approach
 
-`@media (max-width: 600px;) {...}` \
-- `max` here means `600px` or smaller. \
+`@media (max-width: 600px;) {...}`
+- `max` here means `600px` or smaller.
 - this query is a desktop first approach
 
 **Note:** Bottom `@media` query will always rule your code.
